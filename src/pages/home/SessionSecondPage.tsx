@@ -78,7 +78,7 @@ export default function SessionSecondPage() {
             <p className='text-justify my-2'>
               {' '}
               Chào mừng các bạn FTECHers Đà Nẵng đã đến với Đà Lạt nheee! Với
-              tin thần làm nhiệt tình, chơi hết mình, Company Trip 2023 tại
+              tinh thần làm nhiệt tình, chơi hết mình, Company Trip 2023 tại
               FTECH mong muốn sẽ mang lại những cảm xúc trọn vẹn và vui vẻ nhất
               đến với tất cả các thành viên FTECHers Đà Nẵng. Bên cạnh đó,
               chuyến đi Đà Lạt lần này còn là hành trình của sự gắn kết và thấu
