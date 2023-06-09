@@ -85,7 +85,7 @@ export default function SessionSecondPage() {
               hiểu, giúp tái tạo năng lượng sau thời gian làm việc hăng say,
               thổi bùng lên ngọn lửa nhiệt huyết chinh phục những thử thách phía
               trước. Chúc các bạn FTECHers Đà Nẵng sẽ có một chuyến đi thật
-              nhiều an toàn và nhiều niềm vuiii.
+              an toàn và nhiều niềm vuiii.
             </p>
           </div>
           <div className='flex justify-center w-full items-center mt-8'>
