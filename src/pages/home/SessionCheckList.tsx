@@ -2,11 +2,11 @@ import { Checkbox } from 'antd'
 
 const items = [
   {
-    name: 'Áo đồng phục FTECH',
+    name: 'Áo đồng phục nhà FTECH',
     id: 1,
   },
   {
-    name: 'Áo dresscode',
+    name: 'Dress code Gala Dinner',
     id: 2,
   },
   {
@@ -14,57 +14,65 @@ const items = [
     id: 3,
   },
   {
-    name: 'Đồ dùng cá nhân',
+    name: 'Các loại dây sạc',
     id: 4,
   },
   {
-    name: 'Giày thể thao',
+    name: 'Các loại thuốc cá nhân',
     id: 5,
   },
   {
-    name: 'Điện thoại',
+    name: 'Đồ skincare',
     id: 6,
   },
   {
-    name: 'Các loại dây sạc ',
+    name: 'Kem chống nắng',
     id: 7,
   },
   {
-    name: 'Kem chống nắng',
+    name: 'Máy ảnh',
     id: 8,
   },
   {
-    name: 'Giấy tờ tùy thân',
+    name: 'Điện thoại',
     id: 9,
   },
   {
-    name: 'Money money',
+    name: 'Money Money',
     id: 10,
   },
   {
-    name: 'Các loại thuốc cá nhân',
+    name: 'Đồ ăn vặt (nếu cần)',
     id: 11,
   },
   {
-    name: 'Snack ăn thêm',
+    name: 'Mũ che nắng',
     id: 12,
   },
   {
-    name: 'Đồ skincare',
+    name: 'Gối chữ U',
     id: 13,
   },
   {
-    name: 'Mũ che nắng',
+    name: 'Các đồ dùng cá nhân khác',
     id: 14,
   },
   {
-    name: 'Máy ảnh',
+    name: 'Giấy tờ tùy thân',
     id: 15,
   },
   {
-    name: 'Các đồ dùng cá nhân khác',
+    name: 'Dù hoặc áo mưa',
     id: 16,
   },
+  {
+    name: 'List nhạc thiệt chill',
+    id: 17,
+  },
+  {
+    name: 'Một tâm hồn đẹp...',
+    id: 18,
+  }
 ]
 
 export default function SessionCheckList() {

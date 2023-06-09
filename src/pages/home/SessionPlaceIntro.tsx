@@ -40,7 +40,7 @@ export default function SessionPlaceInfo() {
               gọi là Vực Tử Thần.
             </p>
             <div className='flex justify-center gap-2'>
-              <a href='https://www.facebook.com/saphirdalathotelofficialpage/' target='_blank'>
+              <a href='https://samtenhills.vn/' target='_blank'>
                 <Button size='lg' color='white'>
                   Khám phá
                 </Button>
@@ -125,9 +125,11 @@ export default function SessionPlaceInfo() {
               Hồ Tuyền Lâm.
             </Typography>
             <div className='flex justify-center gap-2'>
-              <Button size='lg' color='white'>
-                Khám phá
-              </Button>
+              <a href='https://www.facebook.com/saphirdalathotelofficialpage/' target='_blank'>
+                <Button size='lg' color='white'>
+                  Khám phá
+                </Button>
+              </a>
             </div>
           </div>
         </div>
