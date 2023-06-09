@@ -54,7 +54,11 @@ export default function SessionSecondPage() {
     }
   }, [range])
   return (
-    <div className='custom-shape-divider-top-1685952780 h-100vh bg-[#dcecfb] relative'>
+    <>
+    <figure className='absolute inset-0'>
+        <img src='/images/bg-sp2.png' alt='bg' className='w-full h-full object-cover'/>
+    </figure>
+    <div className='custom-shape-divider-top-1685952780 h-100vh bg-transparent relative'>
       <div className='w-full'>
         <div className='container flex items-center justify-center flex-col h-[100vh]'>
           <p
@@ -166,6 +170,7 @@ export default function SessionSecondPage() {
         alt=''
       /> */}
     </div>
+    </>
   )
 }
 // Đà Nẵng

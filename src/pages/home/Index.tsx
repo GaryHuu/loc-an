@@ -8,6 +8,7 @@ import { useEffect, useRef, useState } from "react";
 import SessionCalendar from "./SessionCalendar.tsx";
 import SessionPlaceInfo from "./SessionPlaceIntro.tsx";
 import SessionCheckList from "./SessionCheckList.tsx";
+import SessionImage from "./SessionImage.tsx";
 
 export default function Index() {
   const [choose, setChoose] = useState<number>(0);
@@ -134,17 +135,23 @@ export default function Index() {
       <div className="first_page" ref={firstPage}>
         <SessionFirstPage />
       </div>
-      <div className="second_page" ref={secondPage}>
+      <div className="second_page relative" ref={secondPage}>
         <SessionSecondPage />
       </div>
       <div className="calendar_page" ref={calenderPage}>
         <SessionCalendar />
       </div>
-      <div className="checklist_paget" ref={checkListRef}>
+      <div className="checklist_paget relative" ref={checkListRef}>
         <SessionCheckList />
+      </div>
+      <div className="relative">
+         <img src='/images/decore.png' alt='decore' className='w-full h-full object-cover'/>
       </div>
       <div className="place_page" ref={sessionPlace}>
         <SessionPlaceInfo />
+      </div>
+      <div className="" ref={sessionPlace}>
+        <SessionImage />
       </div>
     </div>
   );

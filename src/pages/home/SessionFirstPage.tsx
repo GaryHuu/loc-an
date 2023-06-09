@@ -32,7 +32,7 @@ export default function SessionFirstPage() {
     );
   };
   return (
-    <div className="h-[100vh] background-image-full flex items-center justify-center relative">
+    <div className="h-[100vh] bg-bgmobile md:bg-bgfull bg-cover bg-no-repeat bg-top flex items-center justify-center relative">
       <Countdown
         date={DATE_START}
         className="text-gray-800 text-8xl"

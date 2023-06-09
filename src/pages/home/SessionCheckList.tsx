@@ -69,7 +69,11 @@ const items = [
 
 export default function SessionCheckList() {
   return (
-    <div className='custom-shape-divider-top-1685952780 h-100vh bg-[#DCECFB]'>
+    <>
+    <figure className='absolute inset-0'>
+      <img src='/images/bg-sp3.png' alt='bg' className='w-full h-full object-cover'/>
+    </figure>
+    <div className='custom-shape-divider-top-1685952780 h-100vh bg-transparent relative'>
       <div className='w-full'>
         <div className='container flex items-center justify-center flex-col h-[100vh]'>
           <p className='lg:text-6xl text-primary font-extrabold mb-1 animate__wobble text-4xl mb-6'>
@@ -103,5 +107,6 @@ export default function SessionCheckList() {
         </div>
       </div>
     </div>
+    </>
   )
 }
