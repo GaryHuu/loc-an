@@ -149,7 +149,7 @@ export default function SessionCalendar() {
                   <h1 className="lg:text-xl text-lg font-bold text-white">
                     Lên đường đến Đà Lạt thôiii
                   </h1>
-                  <h3 className="text-white">16/08</h3>
+                  <h3 className="text-white">16/06</h3>
                 </div>
                 <div className="hidden">
                   <Button icon={<BsMenuButton color="white" size={24}/>} type='text'/>
@@ -168,7 +168,7 @@ export default function SessionCalendar() {
                   <h1 className="lg:text-xl text-lg font-bold text-white">
                     Trải nghiệm cực vui cùng teambuilding
                   </h1>
-                  <h3 className="text-gray-300">17/08 </h3>
+                  <h3 className="text-gray-300">17/06 </h3>
                 </div>
                 <div className="hidden">
                   <Button icon={<BsMenuButton color="white" size={24}/>} type='text'/>
@@ -187,7 +187,7 @@ export default function SessionCalendar() {
                   <h1 className="lg:text-xl text-lg font-bold text-white">
                     Chilling tại Đà Lạt
                   </h1>
-                  <h3 className="text-white">18/08</h3>
+                  <h3 className="text-white">18/06</h3>
                 </div>
                 <div className="hidden">
                   <Button icon={<BsMenuButton color="white" size={24}/>} type='text'/>
