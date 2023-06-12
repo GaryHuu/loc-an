@@ -136,9 +136,9 @@ export default function SessionCalendar() {
             <h1 className="lg:text-8xl text-center font-bold text-white md:text-6xl text-2xl lg:py-20 pt-12">
               Timeline
             </h1>
-            <div className="border-l-2 mt-10">
+            <div className="border-l-2 lg:mt-10 mt-4">
               <div onClick={() => showModal(1)}
-                   className="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 py-4 bg-blue-500 text-white rounded mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
+                   className="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 lg:py-4 py-2 bg-blue-500 text-white rounded mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
                 <div
                   className="w-5 h-5 bg-blue-600 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0"></div>
 
@@ -146,7 +146,7 @@ export default function SessionCalendar() {
 
                 <div className="flex-auto">
                   <h1 className="text-lg text-white">Ngày 1</h1>
-                  <h1 className="text-xl font-bold text-white">
+                  <h1 className="lg:text-xl text-lg font-bold text-white">
                     Lên đường đến Đà Lạt thôiii
                   </h1>
                   <h3 className="text-white">16/08</h3>
@@ -157,7 +157,7 @@ export default function SessionCalendar() {
               </div>
 
               <div onClick={() => showModal(2)}
-                   className="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 py-4 bg-primary text-white rounded mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
+                   className="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 lg:py-4 py-2 bg-primary text-white rounded mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
                 <div
                   className="w-5 h-5 bg-pink-600 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0"></div>
 
@@ -165,7 +165,7 @@ export default function SessionCalendar() {
 
                 <div className="flex-auto">
                   <h1 className="text-lg text-white">Ngày 2</h1>
-                  <h1 className="text-xl font-bold text-white">
+                  <h1 className="lg:text-xl text-lg font-bold text-white">
                     Trải nghiệm cực vui cùng teambuilding
                   </h1>
                   <h3 className="text-gray-300">17/08 </h3>
@@ -176,7 +176,7 @@ export default function SessionCalendar() {
               </div>
 
               <div onClick={() => showModal(3)}
-                   className="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 py-4 bg-green-600 text-white rounded mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
+                   className="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 lg:py-4 py-2 bg-green-600 text-white rounded mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
                 <div
                   className="w-5 h-5 bg-green-600 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0"></div>
 
@@ -184,7 +184,7 @@ export default function SessionCalendar() {
 
                 <div className="flex-auto">
                   <h1 className="text-lg text-white">Ngày 3</h1>
-                  <h1 className="text-xl font-bold text-white">
+                  <h1 className="lg:text-xl text-lg font-bold text-white">
                     Chilling tại Đà Lạt
                   </h1>
                   <h3 className="text-white">18/08</h3>
@@ -194,7 +194,7 @@ export default function SessionCalendar() {
                 </div>
               </div>
             </div>
-            <h3 className="text-center text-white lg:text-2xl sm:text-sm text-base py-2">
+            <h3 className="text-center text-white lg:text-2xl sm:text-sm text-base">
               <p><b>Note: </b></p>
               <p>Vì chuyến đi sẽ về trễ nên mọi người sẽ được <b>nghỉ vào sáng ngày tiếp theo
               (19/6)</b> mà vẫn được nhận lương nhée</p>
