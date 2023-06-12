@@ -8,11 +8,17 @@ import CustomModal from '../../components/Modal/CustomModal';
 
 const firstDay = [
   {
+    time: "16h00 (15/06)",
+    content: "Nghỉ ngơi sớm chuẩn bị khởi hành",
+  }, {
+    time: "18h00 (15/06)",
+    content: "Lên đường đến Đà Lạt"
+  }, {
     time: "6h00",
     content: "Đến Đà Lạt",
   }, {
     time: "6h00 - 8h00",
-    content: "Ăn uống buffet tại khách sạn và nghỉ ngơi",
+    content: "Ăn uống buffet tại khách sạn và nghỉ ngơi tại sảnh khách sạn",
   }, {
     time: "8h00 - 11h00",
     content: "Tham quan SamtenHills",
@@ -112,10 +118,10 @@ export default function SessionCalendar() {
               {
                 datePopup.map((e) =>
                   <li className="flex">
-                    <p className="timer w-2/5 text-primary text-lg font-bold">
+                    <p className="timer w-6/12 text-primary text-lg font-bold">
                       {e.time}
                     </p>
-                    <p className="timer w-3/5 text-primary text-lg font-medium">
+                    <p className="timer w-6/12 text-primary text-lg font-medium">
                       {e.content}
                     </p>
                   </li>
@@ -188,10 +194,9 @@ export default function SessionCalendar() {
                 </div>
               </div>
             </div>
-            <h3 className="text-center text-white lg:py-2 pt-12 text-2xl">
+            <h3 className="text-center text-white lg:text-2xl sm:text-sm text-base py-2">
               <p><b>Note: </b></p>
-              <p>1. Vì khởi hành sớm nên sáng chiều ngày 15/6 mọi người sẽ được về sớm vào lúc 16h00 nhée</p>
-              <p>2. Vì chuyến đi sẽ về trễ nên mọi người sẽ được <b>nghỉ vào sáng ngày tiếp theo
+              <p>Vì chuyến đi sẽ về trễ nên mọi người sẽ được <b>nghỉ vào sáng ngày tiếp theo
               (19/6)</b> mà vẫn được nhận lương nhée</p>
             </h3>
           </div>
