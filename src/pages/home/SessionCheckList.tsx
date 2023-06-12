@@ -6,67 +6,67 @@ const items = [
     id: 1,
   },
   {
-    name: 'Dress code Gala Dinner',
+    name: 'Kem chống nắng',
     id: 2,
   },
   {
-    name: 'Quần áo ấm',
+    name: 'Các loại dây sạc',
     id: 3,
   },
   {
-    name: 'Các loại dây sạc',
+    name: 'Money Money',
     id: 4,
   },
   {
-    name: 'Các loại thuốc cá nhân',
+    name: 'Mũ che nắng',
     id: 5,
   },
   {
-    name: 'Đồ skincare',
+    name: 'List nhạc thiệt chill',
     id: 6,
   },
   {
-    name: 'Kem chống nắng',
+    name: 'Dress code Gala Dinner',
     id: 7,
   },
   {
-    name: 'Máy ảnh',
+    name: 'Các loại thuốc cá nhân',
     id: 8,
   },
   {
-    name: 'Điện thoại',
+    name: 'Máy ảnh',
     id: 9,
   },
   {
-    name: 'Money Money',
+    name: 'Giấy tờ tùy thân',
     id: 10,
   },
   {
-    name: 'Đồ ăn vặt (nếu cần)',
+    name: 'Gối chữ U',
     id: 11,
   },
   {
-    name: 'Mũ che nắng',
+    name: 'Đồ ăn vặt (nếu cần)',
     id: 12,
   },
   {
-    name: 'Gối chữ U',
+    name: 'Quần áo ấm',
     id: 13,
   },
   {
-    name: 'Các đồ dùng cá nhân khác',
+    name: 'Đồ skincare',
     id: 14,
   },
   {
-    name: 'Giấy tờ tùy thân',
+    name: 'Điện thoại',
     id: 15,
   },
   {
-    name: 'Dù hoặc áo mưa',
+    name: 'Các đồ dùng cá nhân khác',
     id: 16,
   },
   {
-    name: 'List nhạc thiệt chill',
+    name: 'Dù hoặc áo mưa',
     id: 17,
   },
   {
@@ -92,7 +92,7 @@ export default function SessionCheckList() {
             COMPANY TRIP
           </p>
           <div className='flex justify-center lg:px-32 my-2'>
-            <p className='text-center'>
+            <p className='text-center text-xl'>
               {' '}
               Để không phải lo lắng vì quên đồ khi đi du lịch, các bạn FTECHers
               nên chuẩn bị ngay một check-list các đồ dùng cần thiết cho cả
@@ -107,7 +107,7 @@ export default function SessionCheckList() {
                   key={e.id}
                   className='item-check lg:w-1/6 sm:w-1/3 w-1/2 flex mt-2'
                 >
-                  <Checkbox className='text-start'>{e.name}</Checkbox>
+                  <Checkbox className='text-start text-xl'>{e.name}</Checkbox>
                 </div>
               )
             })}
