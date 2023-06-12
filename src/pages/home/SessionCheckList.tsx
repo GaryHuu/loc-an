@@ -92,7 +92,7 @@ export default function SessionCheckList() {
             COMPANY TRIP
           </p>
           <div className='flex justify-center lg:px-32 my-2'>
-            <p className='text-center text-xl'>
+            <p className='text-center lg:text-xl sm:text-sm text-base'>
               {' '}
               Để không phải lo lắng vì quên đồ khi đi du lịch, các bạn FTECHers
               nên chuẩn bị ngay một check-list các đồ dùng cần thiết cho cả
@@ -107,7 +107,7 @@ export default function SessionCheckList() {
                   key={e.id}
                   className='item-check lg:w-1/6 sm:w-1/3 w-1/2 flex mt-2'
                 >
-                  <Checkbox className='text-start text-xl'>{e.name}</Checkbox>
+                  <Checkbox className='text-start lg:text-xl sm:text-sm text-base align-middle'>{e.name}</Checkbox>
                 </div>
               )
             })}

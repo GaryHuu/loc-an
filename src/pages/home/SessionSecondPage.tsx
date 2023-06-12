@@ -75,7 +75,7 @@ export default function SessionSecondPage() {
             COMPANY TRIP
           </p>
           <div className='flex justify-center lg:px-32' ref={titleElement}>
-            <p className='text-justify my-2 text-xl'>
+            <p className='text-justify my-2 lg:text-xl sm:text-sm text-base'>
               {' '}
               Chào mừng các bạn FTECHers Đà Nẵng đã đến với Đà Lạt nheee! Với
               tinh thần làm nhiệt tình, chơi hết mình, Company Trip 2023
@@ -123,7 +123,7 @@ export default function SessionSecondPage() {
                 <h3 className='lg:text-2xl font-bold text-lg m-0 text-center mb-1'>
                   Địa điểm tập trung:
                 </h3>
-                <p className='card-content text-start text-xl'>
+                <p className='card-content text-start lg:text-xl sm:text-sm text-sm'>
                   Công ty FTECH
                   <br /> Sô 3 Lê Đình Lý, phường Vĩnh Trung, quận Thanh Khê, TP
                   Đà Nẵng
@@ -135,7 +135,7 @@ export default function SessionSecondPage() {
                 <h3 className='lg:text-2xl font-bold m-0 text-center mb-1 text-lg'>
                   Liên hệ hỗ trợ:{' '}
                 </h3>
-                <p className='card-content text-start text-xl'>
+                <p className='card-content text-start lg:text-xl sm:text-sm text-sm'>
                   Đặng Hoàng Như Nguyện - 0384316186 <br /> Lê Hồ Lộc An -
                   0776912567
                 </p>
@@ -146,7 +146,7 @@ export default function SessionSecondPage() {
                 <h3 className='lg:text-2xl font-bold text-lg m-0 text-center mb-1'>
                   Thời gian khởi hành:
                 </h3>
-                <p className='card-content text-start text-xl'>
+                <p className='card-content text-start lg:text-xl sm:text-sm text-sm'>
                   <p>18h00</p>
                   <p>15/06/2023</p>
                 </p>
