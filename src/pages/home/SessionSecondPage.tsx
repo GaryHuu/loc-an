@@ -63,7 +63,7 @@ export default function SessionSecondPage() {
         <div className='container flex items-center justify-center flex-col h-[100vh]'>
           <p
             ref={titleElement}
-            className='lg:text-6xl text-primary font-extrabold mb-1 animate__wobble text-4xl'
+            className='lg:text-6xl text-primary font-extrabold lg:mb-1 animate__wobble text-4xl'
           >
             INVITATION
           </p>
@@ -75,9 +75,9 @@ export default function SessionSecondPage() {
             COMPANY TRIP
           </p>
           <div className='flex justify-center lg:px-32' ref={titleElement}>
-            <p className='text-justify my-2 lg:text-xl sm:text-sm text-base'>
+            <p className='text-justify lg:my-2 lg:text-xl sm:text-sm text-base'>
               {' '}
-              Chào mừng các bạn FTECHers Đà Nẵng đã đến với Đà Lạt nheee! Với
+              Chào mừng các bạn FTECHers Đà Nẵng đến với Đà Lạt Trip 2023! Với
               tinh thần làm nhiệt tình, chơi hết mình, Company Trip 2023
               mong muốn sẽ mang lại những cảm xúc trọn vẹn và vui vẻ nhất
               đến với tất cả các thành viên FTECHers Đà Nẵng. Bên cạnh đó,
@@ -120,19 +120,19 @@ export default function SessionSecondPage() {
           <div className='flex justify-center lg:mt-8 mt-2 flex-wrap lg:12'>
             <div className='place-center lg:w-1/3 w-full flex'>
               <div className='title-main flex justify-start flex-col items-center'>
-                <h3 className='lg:text-2xl font-bold text-lg m-0 text-center lg:mb-1'>
+                <h3 className='lg:text-2xl font-bold text-base m-0 text-center lg:mb-1'>
                   Địa điểm tập trung:
                 </h3>
                 <p className='card-content text-start lg:text-xl sm:text-sm text-sm'>
-                  Công ty FTECH
-                  <br /> Sô 3 Lê Đình Lý, phường Vĩnh Trung, quận Thanh Khê, TP
+                  Văn phòng đại diện Công ty FTECH
+                  <br /> Số 03 Lê Đình Lý, phường Vĩnh Trung, quận Thanh Khê, TP
                   Đà Nẵng
                 </p>
               </div>
             </div>
             <div className='place-center  lg:w-1/3 w-full'>
               <div className='title-main flex justify-start flex-col items-center'>
-                <h3 className='lg:text-2xl font-bold m-0 text-center lg:mb-1 text-lg'>
+                <h3 className='lg:text-2xl font-bold m-0 text-center lg:mb-1 text-base'>
                   Liên hệ hỗ trợ:{' '}
                 </h3>
                 <p className='card-content text-start lg:text-xl sm:text-sm text-sm'>
@@ -143,7 +143,7 @@ export default function SessionSecondPage() {
             </div>
             <div className='place-center lg:w-1/3 w-full'>
               <div className='title-main flex justify-start flex-col items-center'>
-                <h3 className='lg:text-2xl font-bold text-lg m-0 text-center lg:mb-1'>
+                <h3 className='lg:text-2xl font-bold text-base m-0 text-center lg:mb-1'>
                   Thời gian khởi hành:
                 </h3>
                 <p className='card-content text-start lg:text-xl sm:text-sm text-sm'>
