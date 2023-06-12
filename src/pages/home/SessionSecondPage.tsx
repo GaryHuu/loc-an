@@ -69,7 +69,7 @@ export default function SessionSecondPage() {
           </p>
 
           <p
-            className='lg:text-2xl font-thin text-gray-600 sm:text-xl my-2'
+            className='lg:text-2xl font-thin text-gray-600 sm:text-xl lg:my-2'
             ref={descriptionElement}
           >
             COMPANY TRIP
@@ -88,7 +88,7 @@ export default function SessionSecondPage() {
               an toàn và nhiều niềm vuiii.
             </p>
           </div>
-          <div className='flex justify-center w-full items-center mt-8'>
+          <div className='flex justify-center w-full items-center lg:mt-8'>
             <div className='from-place mr-4'>
               <p className='lg:text-2xl text-center mb-0 font-bold text-base md:whitespace-nowrap'>
                 Đà Nẵng
@@ -117,10 +117,10 @@ export default function SessionSecondPage() {
               </p>
             </div>
           </div>
-          <div className='flex justify-center mt-8 flex-wrap lg:12'>
+          <div className='flex justify-center lg:mt-8 mt-2 flex-wrap lg:12'>
             <div className='place-center lg:w-1/3 w-full flex'>
               <div className='title-main flex justify-start flex-col items-center'>
-                <h3 className='lg:text-2xl font-bold text-lg m-0 text-center mb-1'>
+                <h3 className='lg:text-2xl font-bold text-lg m-0 text-center lg:mb-1'>
                   Địa điểm tập trung:
                 </h3>
                 <p className='card-content text-start lg:text-xl sm:text-sm text-sm'>
@@ -132,7 +132,7 @@ export default function SessionSecondPage() {
             </div>
             <div className='place-center  lg:w-1/3 w-full'>
               <div className='title-main flex justify-start flex-col items-center'>
-                <h3 className='lg:text-2xl font-bold m-0 text-center mb-1 text-lg'>
+                <h3 className='lg:text-2xl font-bold m-0 text-center lg:mb-1 text-lg'>
                   Liên hệ hỗ trợ:{' '}
                 </h3>
                 <p className='card-content text-start lg:text-xl sm:text-sm text-sm'>
@@ -143,7 +143,7 @@ export default function SessionSecondPage() {
             </div>
             <div className='place-center lg:w-1/3 w-full'>
               <div className='title-main flex justify-start flex-col items-center'>
-                <h3 className='lg:text-2xl font-bold text-lg m-0 text-center mb-1'>
+                <h3 className='lg:text-2xl font-bold text-lg m-0 text-center lg:mb-1'>
                   Thời gian khởi hành:
                 </h3>
                 <p className='card-content text-start lg:text-xl sm:text-sm text-sm'>
