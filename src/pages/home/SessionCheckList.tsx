@@ -34,7 +34,7 @@ const items = [
     id: 8,
   },
   {
-    name: 'Máy ảnh',
+    name: 'Máy ảnh/Máy quay phim',
     id: 9,
   },
   {
@@ -58,7 +58,7 @@ const items = [
     id: 14,
   },
   {
-    name: 'Điện thoại',
+    name: 'Điện thoại/Ipad',
     id: 15,
   },
   {
@@ -84,7 +84,7 @@ export default function SessionCheckList() {
     <div className='custom-shape-divider-top-1685952780 h-100vh bg-transparent relative'>
       <div className='w-full'>
         <div className='container flex items-center justify-center flex-col h-[100vh]'>
-          <p className='lg:text-6xl text-primary font-extrabold mb-1 animate__wobble text-4xl mb-6'>
+          <p className='lg:text-6xl text-primary font-extrabold animate__wobble text-4xl lg:mb-6 mb-1'>
             CHECKLIST
           </p>
 

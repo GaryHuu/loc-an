@@ -11,10 +11,10 @@ const firstDay = [
     time: "16h00 (15/06)",
     content: "Nghỉ ngơi sớm chuẩn bị khởi hành",
   }, {
-    time: "18h00 (15/06)",
-    content: "Lên đường đến Đà Lạt"
+    time: "17h30 (15/06)",
+    content: "Tập trung và chuẩn bị lên Đà Lạt"
   }, {
-    time: "6h00",
+    time: "6h00 (16/06)",
     content: "Đến Đà Lạt",
   }, {
     time: "6h00 - 8h00",
@@ -35,7 +35,7 @@ const firstDay = [
     time: "18h00 - 20h00",
     content: "Ăn tối",
   }, {
-    time: "20h00",
+    time: "20h00 trở đi",
     content: "Hoạt động tự do",
   },
 ];
@@ -149,7 +149,7 @@ export default function SessionCalendar() {
                   <h1 className="lg:text-xl text-lg font-bold text-white">
                     Lên đường đến Đà Lạt thôiii
                   </h1>
-                  <h3 className="text-white">16/08</h3>
+                  <h3 className="text-white">Chiều tối ngày 15/06 và ngày 16/06</h3>
                 </div>
                 <div className="hidden">
                   <Button icon={<BsMenuButton color="white" size={24}/>} type='text'/>
@@ -168,7 +168,7 @@ export default function SessionCalendar() {
                   <h1 className="lg:text-xl text-lg font-bold text-white">
                     Trải nghiệm cực vui cùng teambuilding
                   </h1>
-                  <h3 className="text-gray-300">17/08 </h3>
+                  <h3 className="text-gray-300">Ngày 17/06</h3>
                 </div>
                 <div className="hidden">
                   <Button icon={<BsMenuButton color="white" size={24}/>} type='text'/>
@@ -187,7 +187,7 @@ export default function SessionCalendar() {
                   <h1 className="lg:text-xl text-lg font-bold text-white">
                     Chilling tại Đà Lạt
                   </h1>
-                  <h3 className="text-white">18/08</h3>
+                  <h3 className="text-white">Ngày 18/06 và sáng ngày 19/06</h3>
                 </div>
                 <div className="hidden">
                   <Button icon={<BsMenuButton color="white" size={24}/>} type='text'/>
@@ -196,8 +196,8 @@ export default function SessionCalendar() {
             </div>
             <h3 className="text-center text-white lg:text-2xl sm:text-sm text-base">
               <p><b>Note: </b></p>
-              <p>Vì chuyến đi sẽ về trễ nên mọi người sẽ được <b>nghỉ vào sáng ngày tiếp theo
-              (19/6)</b> mà vẫn được nhận lương nhée</p>
+              <p>Vì chuyến đi sẽ về trễ nên mọi người trong đoàn sẽ được <b>nghỉ vào sáng ngày thứ hai
+              (19/06)</b> mà vẫn được nhận lương nhée</p>
             </h3>
           </div>
         </div>

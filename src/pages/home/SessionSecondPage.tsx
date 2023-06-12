@@ -77,7 +77,7 @@ export default function SessionSecondPage() {
           <div className='flex justify-center lg:px-32' ref={titleElement}>
             <p className='text-justify lg:my-2 lg:text-xl sm:text-sm text-base'>
               {' '}
-              Chào mừng các bạn FTECHers Đà Nẵng đã đến với Đà Lạt nheee! Với
+              Chào mừng các bạn FTECHers Đà Nẵng đến với Đà Lạt Trip 2023! Với
               tinh thần làm nhiệt tình, chơi hết mình, Company Trip 2023
               mong muốn sẽ mang lại những cảm xúc trọn vẹn và vui vẻ nhất
               đến với tất cả các thành viên FTECHers Đà Nẵng. Bên cạnh đó,
@@ -124,8 +124,8 @@ export default function SessionSecondPage() {
                   Địa điểm tập trung:
                 </h3>
                 <p className='card-content text-start lg:text-xl sm:text-sm text-sm'>
-                  Công ty FTECH
-                  <br /> Sô 3 Lê Đình Lý, phường Vĩnh Trung, quận Thanh Khê, TP
+                  Văn phòng đại diện Công ty FTECH
+                  <br /> Số 03 Lê Đình Lý, phường Vĩnh Trung, quận Thanh Khê, TP
                   Đà Nẵng
                 </p>
               </div>
