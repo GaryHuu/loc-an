@@ -1,10 +1,10 @@
-import { Progress } from "antd";
+import {Progress} from "antd";
 import "./index.css";
 import SessionFirstPage from "./SessionFirstPage.tsx";
 import SessionSecondPage from "./SessionSecondPage.tsx";
-import { BsHouseExclamation, BsCalendar2, BsArrowUp, BsImage, BsCheck2Circle } from "react-icons/bs";
-import { TbBus } from "react-icons/tb";
-import { useEffect, useRef, useState } from "react";
+import {BsArrowUp, BsCalendar2, BsCheck2Circle, BsHouseExclamation, BsImage} from "react-icons/bs";
+import {TbBus} from "react-icons/tb";
+import {useEffect, useRef, useState} from "react";
 import SessionCalendar from "./SessionCalendar.tsx";
 import SessionPlaceInfo from "./SessionPlaceIntro.tsx";
 import SessionCheckList from "./SessionCheckList.tsx";
@@ -22,29 +22,29 @@ export default function Index() {
   const menus = [
     {
       index: 0,
-      icon: <BsHouseExclamation size={24} color={"white"} />,
+      icon: <BsHouseExclamation size={24} color={"white"}/>,
       text: "Home"
     },
     {
       index: 1,
       icon: (
-        <TbBus size={24} color={"white"} />
+        <TbBus size={24} color={"white"}/>
       ),
       text: "Invitation"
     },
     {
       index: 2,
-      icon: <BsCalendar2 size={24} color={"white"} />,
+      icon: <BsCalendar2 size={24} color={"white"}/>,
       text: "Timeline"
     },
     {
       index: 3,
-      icon: <BsCheck2Circle size={24} color={"white"} />,
+      icon: <BsCheck2Circle size={24} color={"white"}/>,
       text: "Timeline"
     },
     {
       index: 4,
-      icon: <BsImage size={24} color={"white"} />,
+      icon: <BsImage size={24} color={"white"}/>,
       text: "Place"
     },
   ];
@@ -130,28 +130,33 @@ export default function Index() {
         top: 0,
         behavior: "smooth",
       })} className="fixed lg:bottom-8 right-8 z-10 bottom-20">
-        <Progress type="circle" percent={currentPos} width={60} strokeColor={{ '0%': '#108ee9', '100%': '#87d068' }} format={() => <div className="flex justify-center"><BsArrowUp className="font-bold" size={24} color="red" /></div>} showInfo={true} />
+        <Progress type="circle" percent={currentPos} width={60} strokeColor={{'0%': '#108ee9', '100%': '#87d068'}}
+                  format={() => <div className="flex justify-center"><BsArrowUp className="font-bold" size={24}
+                                                                                color="red"/></div>} showInfo={true}/>
       </div> : <></>}
       <div className="first_page" ref={firstPage}>
-        <SessionFirstPage />
+        <SessionFirstPage/>
       </div>
       <div className="second_page relative" ref={secondPage}>
-        <SessionSecondPage />
+        <SessionSecondPage/>
       </div>
       <div className="calendar_page" ref={calenderPage}>
-        <SessionCalendar />
+        <SessionCalendar/>
       </div>
       <div className="checklist_paget relative" ref={checkListRef}>
-        <SessionCheckList />
+        <SessionCheckList/>
       </div>
       <div className="relative">
-         <img src='/images/decore.png' alt='decore' className='w-full h-full object-cover'/>
+        <img src='/images/decore.jpg' alt='decore' className='w-full h-full object-cover'/>
       </div>
       <div className="place_page" ref={sessionPlace}>
-        <SessionPlaceInfo />
+        <SessionPlaceInfo/>
       </div>
       <div className="" ref={sessionPlace}>
-        <SessionImage />
+        <SessionImage/>
+      </div>
+      <div className="relative">
+        <img src='/images/footer.png' alt='footer' className='w-full h-full object-cover'/>
       </div>
     </div>
   );
